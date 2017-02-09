@@ -14,6 +14,7 @@
 
 #define I2C_SEQ_REG_SETTING_MAX   5
 #define I2C_SEQ_REG_DATA_MAX      20
+#define I2C_REG_DATA_MAX          (8*1024)
 #define MAX_CID                   16
 
 #define I2C_USER_REG_DATA_MAX 1024
@@ -59,11 +60,6 @@
 #define MAX_AF_ITERATIONS 3
 #define MAX_NUMBER_OF_STEPS 47
 #define MAX_POWER_CONFIG 12
-
-typedef enum sensor_stats_type {
-	YRGB,
-	YYYY,
-} sensor_stats_type_t;
 
 typedef enum sensor_stats_type {
 	YRGB,
